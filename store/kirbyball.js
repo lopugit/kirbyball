@@ -37,7 +37,7 @@ const state = () => ({
   ],
   effects: [
     "Skips the receiver's turn if this kirby is hit",
-    "Steal an opposition kirby if the receiver's kirby is hit, thrower chooses",
+    "Steal a thrower's kirby if the receiver's kirby is hit, thrower chooses",
     "If the receiver has more than 4 kirby's and this kirby is hit all the receiver's kirby's come back in",
     'Takes out the closest kirby. Receiver chooses',
     "Take out any of the thrower's kirby's if this kirby is hit, receiver chooses",
