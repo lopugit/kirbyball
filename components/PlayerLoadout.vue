@@ -7,7 +7,7 @@
       <div
         v-for="(character, idx) in player"
         :key="idx"
-        class="p-1 sm:p-2 h-full"
+        class="p-1 sm:p-2"
       >
         <div class="w-auto h-full flex flex-col items-center bg-primary rounded-md shadow-sm p-1">
           <div style="height: 35%">
@@ -16,17 +16,17 @@
               :src="`/characters/kirby${character.name.toLowerCase()}.png`"
             >
           </div>
-          <div class="flex flex-col items-center">
+          <div class="flex flex-col p-1 sm:p-2">
             <div class="pb-1 font-xbold text-secondary text-sm sm:text-3xl">
               {{ character.name }} Kirby
             </div>
-            <div class="pb-1 text-secondary text-center text-xs leading-4 sm:text-xs sm:px-4">
+            <div class="pb-1 text-secondary text-xs leading-4 sm:text-xs sm:px-4">
               <span class="font-bold text-secondary text-xs sm:text-md">
                 Effect
               </span>
               {{ character.effect }}
             </div>
-            <div class="text-secondary text-center text-xs leading-4 sm:text-xs sm:px-4">
+            <div class="text-secondary text-xs leading-4 sm:text-xs sm:px-4">
               <span class="font-bold text-secondary text-xs sm:text-md">
                 Drinking
               </span>
