@@ -9,8 +9,8 @@
         :key="idx"
         class="p-1 sm:p-2"
       >
-        <div class="w-auto h-full flex flex-col items-center bg-primary rounded-md shadow-sm p-1">
-          <div style="height: 35%">
+        <div class="w-auto flex flex-col items-center bg-primary rounded-md shadow-sm p-1">
+          <div style="height: 8vh">
             <img
               class="h-full"
               :src="`/characters/kirby${character.name.toLowerCase()}.png`"
