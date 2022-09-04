@@ -1,0 +1,42 @@
+[
+  {
+    "kirby": "star",
+    "effect": "Skips the receiver's turn if this kirby is hit",
+    "specialEffect": "Shots infinite"
+  },
+  {
+    "kirby": "sword",
+    "effect": "Brings back 1 of the receiver's kirby's, receiver chooses",
+    "specialEffect": "Shot single"
+  },
+  {
+    "kirby": "magician",
+    "effect": "Swap a kirby from the receiver's field with a thrower's kirby, thrower chooses",
+    "specialEffect": "none"
+  },
+  {
+    "kirby": "fat",
+    "effect": "Take out any of the thrower's kirby's if this kirby is hit, receiver chooses",
+    "specialEffect": "none"
+  },
+  {
+    "kirby": "wand",
+    "effect": "Steal an opposition kirby if the receiver's kirby is hit, thrower chooses",
+    "specialEffect": "none"
+  },
+  {
+    "kirby": "sleepy",
+    "effect": "Takes out the closest kirby. Receiver chooses",
+    "specialEffect": "none"
+  },
+  {
+    "kirby": "cloud",
+    "effect": "The thrower loses all the same kirby's hit in this turn",
+    "specialEffect": "none"
+  },
+  {
+    "kirby": "mango",
+    "effect": "If the receiver has more than 4 kirby's and this kirby is hit all the receiver's kirby's come back in",
+    "specialEffect": "none"
+  }
+]
