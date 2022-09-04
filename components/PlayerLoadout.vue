@@ -26,11 +26,11 @@
               </span>
               {{ character.effect }}
             </div>
-            <div class="text-secondary text-xs leading-4 sm:text-xs sm:px-4">
+            <div v-if="character.drinkingEffect" class="text-secondary text-xs leading-4 sm:text-xs sm:px-4">
               <span class="font-bold text-secondary text-xs sm:text-md">
                 Drinking
               </span>
-              {{ character.drinkingEffect || "None" }}
+              {{ character.drinkingEffect }}
             </div>
           </div>
         </div>
