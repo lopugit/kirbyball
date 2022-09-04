@@ -9,24 +9,24 @@
         :key="idx"
         class="p-1 sm:p-2"
       >
-        <div class="w-auto flex flex-col items-center bg-primary rounded-md shadow-sm p-1">
+        <div class="w-full flex flex-col items-center bg-primary rounded-md shadow-sm p-1">
           <div style="height: 8vh">
             <img
               class="h-full"
               :src="`/characters/kirby${character.name.toLowerCase()}.png`"
             >
           </div>
-          <div class="flex flex-col p-1 sm:p-2">
+          <div class="flex flex-col p-1 sm:p-2 w-full">
             <div class="pb-1 font-xbold text-secondary text-sm sm:text-3xl">
               {{ character.name }} Kirby
             </div>
-            <div class="pb-1 text-secondary text-xs leading-4 sm:text-xs sm:px-4">
+            <div class="pb-1 text-secondary text-xs leading-4 sm:text-xs">
               <span class="font-bold text-secondary text-xs sm:text-md">
                 Effect
               </span>
               {{ character.effect }}
             </div>
-            <div v-if="character.drinkingEffect" class="text-secondary text-xs leading-4 sm:text-xs sm:px-4">
+            <div v-if="character.drinkingEffect" class="text-secondary text-xs leading-4 sm:text-xs">
               <span class="font-bold text-secondary text-xs sm:text-md">
                 Drinking
               </span>
