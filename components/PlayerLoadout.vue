@@ -20,17 +20,17 @@
             >
           </div>
           <div class="flex flex-col p-1 sm:p-2 w-full">
-            <div class="pb-1 font-xbold text-darkgray text-sm sm:text-3xl">
+            <div class="pb-1 font-xbold text-secondary text-sm sm:text-3xl">
               {{ character.name }} Kirby
             </div>
             <div class="pb-1 text-darkgray text-xs leading-4 sm:text-xs">
-              <span class="font-bold text-darkgray text-xs sm:text-md">
+              <span class="font-bold text-secondary text-xs sm:text-md">
                 Effect
               </span>
               {{ character.effect }}
             </div>
             <div v-if="character.drinkingEffect" class="text-darkgray text-xs leading-4 sm:text-xs">
-              <span class="font-bold text-darkgray text-xs sm:text-md">
+              <span class="font-bold text-secondary text-xs sm:text-md">
                 Drinking
               </span>
               {{ character.drinkingEffect }}

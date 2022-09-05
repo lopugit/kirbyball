@@ -11,19 +11,10 @@ const state = () => ({
   storedPlayer,
   characters: [
     {
-      name: 'Sword'
+      name: 'Big'
     },
     {
       name: 'Cloud'
-    },
-    {
-      name: 'Star'
-    },
-    {
-      name: 'Wand'
-    },
-    {
-      name: 'Big'
     },
     {
       name: 'Jester'
@@ -32,7 +23,16 @@ const state = () => ({
       name: 'Sleepy'
     },
     {
+      name: 'Star'
+    },
+    {
+      name: 'Sword'
+    },
+    {
       name: 'Waddle'
+    },
+    {
+      name: 'Wand'
     }
   ],
   effects: [
