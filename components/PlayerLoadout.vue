@@ -2,14 +2,17 @@
   <div class="w-full py-2 px-1 min-h-screen flex flex-col items-center justify-center">
     <div
       v-if="player"
-      class="loadout h-screen py-1 flex flex-row flex-wrap w-full grid-rows-4 grid grid-cols-2"
+      class="loadout py-1 flex flex-row flex-wrap justify-center"
     >
       <div
         v-for="(character, idx) in player"
         :key="idx"
-        class="p-1 sm:p-2"
+        class="p-1 sm:p-2 w-6/12 flex justify-center items-start"
       >
-        <div class="w-full flex flex-col items-center bg-primary rounded-md shadow-sm p-1">
+        <div
+          class="w-full flex flex-col items-center bg-primary rounded-md shadow-sm p-1"
+          style="max-width: 300px"
+        >
           <div style="height: 8vh">
             <img
               class="h-full"
@@ -17,17 +20,17 @@
             >
           </div>
           <div class="flex flex-col p-1 sm:p-2 w-full">
-            <div class="pb-1 font-xbold text-secondary text-sm sm:text-3xl">
+            <div class="pb-1 font-xbold text-darkgray text-sm sm:text-3xl">
               {{ character.name }} Kirby
             </div>
-            <div class="pb-1 text-secondary text-xs leading-4 sm:text-xs">
-              <span class="font-bold text-secondary text-xs sm:text-md">
+            <div class="pb-1 text-darkgray text-xs leading-4 sm:text-xs">
+              <span class="font-bold text-darkgray text-xs sm:text-md">
                 Effect
               </span>
               {{ character.effect }}
             </div>
-            <div v-if="character.drinkingEffect" class="text-secondary text-xs leading-4 sm:text-xs">
-              <span class="font-bold text-secondary text-xs sm:text-md">
+            <div v-if="character.drinkingEffect" class="text-darkgray text-xs leading-4 sm:text-xs">
+              <span class="font-bold text-darkgray text-xs sm:text-md">
                 Drinking
               </span>
               {{ character.drinkingEffect }}
