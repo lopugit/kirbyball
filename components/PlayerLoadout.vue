@@ -11,7 +11,7 @@
       >
         <div
           class="w-full flex flex-col items-center bg-primary rounded-md shadow-sm p-1"
-          style="max-width: 300px"
+          style="max-width: 250px"
         >
           <div style="height: 8vh">
             <img
