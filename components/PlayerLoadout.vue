@@ -14,11 +14,10 @@
       <div
         v-for="(character, idx) in player"
         :key="idx"
-        class="p-1 sm:p-2 flex justify-center items-start"
+        class="p-1 sm:p-2 w-6/12 flex justify-center items-start"
       >
         <div
           class="w-full flex flex-col items-center bg-primary rounded-md shadow-sm p-1"
-          style="max-width: 250px"
         >
           <div style="height: 8vh">
             <img
