@@ -1,8 +1,15 @@
 <template>
-  <div class="w-full py-2 px-1 min-h-screen flex flex-col items-center justify-center">
+  <div
+    class="
+      w-full py-2 px-1 min-h-screen flex flex-col
+      items-center justify-start
+
+    "
+  >
     <div
       v-if="player"
       class="loadout py-1 flex flex-row flex-wrap justify-center"
+      style="max-width: 600px"
     >
       <div
         v-for="(character, idx) in player"
@@ -11,7 +18,6 @@
       >
         <div
           class="w-full flex flex-col items-center bg-primary rounded-md shadow-sm p-1"
-          style="max-width: 250px"
         >
           <div style="height: 8vh">
             <img
